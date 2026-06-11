@@ -2,8 +2,8 @@
   "name": "clawtrader-frontend",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc && vite build",
     "postbuild": "chmod -R a+rX dist",
     "preview": "vite preview"
   },

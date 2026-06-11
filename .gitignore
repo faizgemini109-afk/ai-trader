@@ -5,8 +5,6 @@ node_modules/
 .venv/
 venv/
 env/
-.env
-.env.local
 .env.*.local
 
 # ====================
@@ -31,7 +29,6 @@ deployments/
 # IDE
 # ====================
 .idea/
-.vscode/
 *.swp
 *.swo
 *.swn
@@ -125,6 +122,7 @@ APPENDICES.md
 AUDIT_REPORT.md
 AUDIT_REPORT_NEW.md
 CLAUDE.md
+/research-local/
 /service/data/
 /service/server/data/
 /TODO
@@ -132,3 +130,8 @@ change.md
 
 # Local agent config symlink
 .codex
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
